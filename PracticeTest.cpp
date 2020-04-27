@@ -32,3 +32,11 @@ TEST(PracticeTest, palindrome_spaces)
     bool actual = obj.isPalindrome("Redrum si r is murder");
     ASSERT_TRUE(actual);
 }
+
+TEST(PracticeTest, descending_repeats)
+{
+    Practice obj;
+    vector<int> sorted = obj.isPalindrome(2,3,2);
+	vector<int> actualSorted = [3,2,2];
+    ASSERT_EQ(sorted, actualSorted);
+}
