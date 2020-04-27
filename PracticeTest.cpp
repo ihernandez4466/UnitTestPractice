@@ -24,7 +24,7 @@ TEST(PracticeTest, is_not_simple_palindrome)
 {
     Practice obj;
     bool actual = obj.isPalindrome("racesecar");
-    ASSERT_FALSE(actual);
+    ASSERT_TRUE(actual);
 }
 TEST(PracticeTest, palindrome_spaces)
 {
