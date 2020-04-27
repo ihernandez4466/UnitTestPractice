@@ -29,7 +29,6 @@ TEST(PracticeTest, is_not_simple_palindrome)
 TEST(PracticeTest, sort_repeats)
 {
     Practice obj;
-    bool actual = obj.sortDescending(2,3,2);
-	int x = 3,2,2;
-    ASSERT_EQ(actual, x);
+    int actual = obj.sortDescending(2,3,2);
+    ASSERT_EQ(actual, (3,2,2));
 }
