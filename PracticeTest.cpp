@@ -23,12 +23,12 @@ TEST(PracticeTest, is_simple_palindrome)
 TEST(PracticeTest, is_not_simple_palindrome)
 {
     Practice obj;
-    bool actual = obj.isPalindrome('raceecar');
+    bool actual = obj.isPalindrome("raceecar");
     ASSERT_FALSE(actual);
 }
 TEST(PracticeTest, palindrome_spaces)
 {
     Practice obj;
-    bool actual = obj.isPalindrome('Red rum, sir, is murder');
+    bool actual = obj.isPalindrome("Red rum, sir, is murder");
     ASSERT_TRUE(actual);
 }
