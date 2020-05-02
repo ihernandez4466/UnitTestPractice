@@ -4,6 +4,9 @@
 #include <string>
 
 using std::string;
+int first;
+int second;
+int third;
 
 class Practice
 {
