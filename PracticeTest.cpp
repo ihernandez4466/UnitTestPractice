@@ -40,4 +40,6 @@ TEST(PracticeTest, sort_Descending)
     int third = 3;
     obj.sortDescending(first,second,third);
     ASSERT_EQ(first, 3);
+    ASSERT_EQ(second, 2);
+    ASSERT_EQ(third, 1); 
 }
