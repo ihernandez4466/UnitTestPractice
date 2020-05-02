@@ -39,9 +39,9 @@ TEST(PracticeTest, sort_Descending)
     int second = 2;
     int third = 1;
     obj.sortDescending(first,second,third);
-    //ASSERT_EQ(first, 3);
+    ASSERT_EQ(first, 3);
     ASSERT_EQ(second, 2);
-    //ASSERT_EQ(third, 1); 
+    ASSERT_EQ(third, 1); 
 }
 TEST(PracticeTest, sort_repeats){
     Practice obj;
