@@ -43,3 +43,13 @@ TEST(PracticeTest, sort_Descending)
     ASSERT_EQ(second, 2);
     ASSERT_EQ(third, 1); 
 }
+TEST(PracticeTest, sort_repeats){
+    Practice obj;
+    int first = 2;
+    int second = 3;
+    int third = 2;
+    obj.sortDescending(first,second,third);
+    ASSERT_EQ(first, 3);
+    ASSERT_EQ(second, 2);
+    ASSERT_EQ(third, 2); 
+}
