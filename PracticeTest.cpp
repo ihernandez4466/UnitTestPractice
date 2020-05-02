@@ -56,9 +56,7 @@ TEST(PracticeTest, sort_secondCase)
     int second = 1;
     int third = 4;
     obj.sortDescending(first,second,third);
-    ASSERT_EQ(first, 4);
     ASSERT_EQ(second, 2);
-    ASSERT_EQ(third, 1); 
 }
 TEST(PracticeTest, sort_repeats){
     Practice obj;
