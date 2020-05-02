@@ -32,10 +32,9 @@ TEST(PracticeTest, palindrome_spaces)
     bool actual = obj.isPalindrome("Redrum si r is murder");
     ASSERT_TRUE(actual);
 }
-Test(PracticeTest, sortDescending_norm){
+Test(PracticeTest, sortDescending)
+{
     Practice obj;
     obj.sortDescending(1,2,3);
     ASSERT_EQ(first, 3);
-    ASSERT_EQ(second, 2);
-    ASSERT_EQ(third, 1);
 }
