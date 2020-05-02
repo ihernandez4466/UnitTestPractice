@@ -35,6 +35,9 @@ TEST(PracticeTest, palindrome_spaces)
 TEST(PracticeTest, sort_Descending)
 {
     Practice obj;
-    obj.sortDescending(1,2,3);
+    int first = 1;
+    int second = 2;
+    int third = 3;
+    obj.sortDescending(first,second,third);
     ASSERT_EQ(first, 3);
 }
