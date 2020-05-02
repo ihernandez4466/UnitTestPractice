@@ -2,6 +2,9 @@
 #include <string>
 
 using std::string;
+int first;
+int second;
+int third;
 
 // Receive three integers and rearrange their values so that they are in
 // descending order from greatest (first) to least (third)
